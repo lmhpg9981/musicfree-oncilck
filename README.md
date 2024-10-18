@@ -6,5 +6,5 @@
 打开Termux，输入下列指令，按照提示操作即可：
 
 ```
-cd ~ && pkg update -y && pkg install wget -y && wget https://gitee.com/Lmlanmei64/musicfree-oncilck/start.sh && chmod 777 start.sh && ./start.sh
+cd ~ && pkg upgrade -y && pkg install wget -y && wget https://gitee.com/Lmlanmei64/musicfree-oncilck/start.sh && chmod 777 start.sh && ./start.sh
 ```
