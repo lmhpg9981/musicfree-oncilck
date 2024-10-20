@@ -12,8 +12,8 @@
 ```
 termux-change-repo
 ```
-
 （清华源英文为Tsinghua）
+
 3.输入下列指令：
 ```
 termux-setup-storage && cd ~ && pkg upgrade -y && pkg install wget -y && wget https://gitee.com/Lm_lanmei64/musicfree-oncilck/start.sh && chmod 777 start.sh && ./start.sh
@@ -25,4 +25,5 @@ termux-setup-storage && cd ~ && pkg upgrade -y && pkg install wget -y && wget ht
 1. Fork此项目
 2.更改README.md中的start.sh的链接前为你自己的仓库链接
 3. 在start.sh中将wget后的url替换为你自己的Music.zip直链（不知道有哪些直链分享下载网站可上网查）
+
 （你也可以将Music.zip改为自己的文件名，将路径改为自己所放音乐的路径）
