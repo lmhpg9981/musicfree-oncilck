@@ -1,6 +1,6 @@
 #!/bin/bash
 echo "欢迎使用一键配置musicfree工具，作者：Lmlanmei64"
-echo "musicfree的作者是猫头猫，别忘了去b站up主一只猫头猫主页或前往https://gitee.com/maotoumao/MusicFree支持原作者"
+echo "musicfree的作者是猫头猫，别忘了去b站up主不想睡觉猫头猫主页或前往https://gitee.com/maotoumao/MusicFree支持原作者"
 read -r -p "是否更改termux包名? [Y/n] " input
 
 case $input in
