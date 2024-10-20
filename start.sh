@@ -16,7 +16,7 @@ esac
 Home="/data/data/$package/files/home"
 echo "目前未做完，先弄下载本地音乐功能"
 if [ -f $Home/Music.zip ]; then
-read -r -p "Musicfree已存在，是否删除并更新? [Y/n] " input
+read -r -p "Music.zip已存在，是否删除并更新? [Y/n] " input
 
 case $input in
     [yY][eE][sS]|[yY])
@@ -28,7 +28,8 @@ case $input in
 	    echo "那么将跳过"。
            	;;
 esac
-
+else
+wget https://cloud.wujiyan.cc/f/wnnXc4/Music.zip
 fi
 echo "接下来将解压"
 echo "文件将被解压到/storage/emulated/0/Download/musicfree/download，但如果在多用户，你必须将0更改"
