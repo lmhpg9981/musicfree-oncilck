@@ -22,8 +22,8 @@ termux-setup-storage && cd ~ && pkg upgrade -y && pkg install wget -y && wget ht
 
 
 ### 如何自用
-1. Fork此项目
-2.将README.md中的https://gitee.com/Lm_lanmei64/musicfree-oncilck/替换为你自己的仓库链接
-3. 在start.sh中将同样https://gitee.com/Lm_lanmei64/musicfree-oncilck/替换为自己的仓库链接，并将wget后的url替换为你自己的Music.zip直链（不知道有哪些直链分享下载网站可上网查）
+1.Fork此项目
+2.将README.md中的[https://gitee.com/Lm_lanmei64/musicfree-oncilck/](https://gitee.com/Lm_lanmei64/musicfree-oncilck/)替换为你自己的仓库链接
+3.在start.sh中同样将[https://gitee.com/Lm_lanmei64/musicfree-oncilck/](https://gitee.com/Lm_lanmei64/musicfree-oncilck/)替换为自己的仓库链接，并将wget后的url替换为你自己的Music.zip直链（不知道有哪些直链分享下载网站可上网查）
 
 （你也可以将Music.zip改为自己的文件名，将路径改为自己所放音乐的路径）
